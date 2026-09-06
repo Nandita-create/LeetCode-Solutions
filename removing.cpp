@@ -79,6 +79,8 @@ int main() {
     cout<<"Enter length of array: ";
     cin>>len;
     vector<int> nums(len);
+
+    cout<<"Enter "<<len<<" elements of array: \n";
     for (int i=0 ; i<len ; i++)
     {
         cin>>nums[i];
