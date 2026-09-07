@@ -48,6 +48,7 @@ int main() {
     cout<<"Enter length of array: ";
     cin>>len;
     vector<int> nums(len);
+    cout<<"Enter "<<len<<" elements of array: ";
     for (int i=0 ; i<len ; i++)
     {
         cin>>nums[i];
@@ -59,3 +60,6 @@ int main() {
     cout<<"Result: "<<results<<endl;
     return 0;
 }
+//run using: 
+//g++ majority_element.cpp -o majority_element
+//./majority_element
