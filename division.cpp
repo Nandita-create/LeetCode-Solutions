@@ -59,9 +59,9 @@ public:
 
 int main() {
 	int dividend, divisor;
-	cout<<"Enter dividend: ";
+	cout<<"Enter the dividend: ";
 	cin>>dividend;
-	cout<<"Enter divisor: ";
+	cout<<"Enter the divisor: ";
 	cin>>divisor;
 	
 	Solution division;
