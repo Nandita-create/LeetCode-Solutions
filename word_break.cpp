@@ -68,5 +68,5 @@ int main() {
     return 0;
 }
 //run using: 
-//g++ word_break.cpp -o word-break.exe
+//g++ word_break.cpp -o word_break.exe
 //./word_break
