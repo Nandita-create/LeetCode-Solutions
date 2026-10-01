@@ -57,5 +57,5 @@ int main()
 }
 
 //run using: 
-//g++ bin_to_hex.cpp -o bin_to_hex.exe
+//g++ bin_to_hex.cpp -o bin_to_hex
 //./bin_to_hex
