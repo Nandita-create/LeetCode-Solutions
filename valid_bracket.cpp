@@ -18,12 +18,12 @@ int top=-1;
     bool isValid(string s) {
         
         int len = s.length();
-        auto count1 = ranges::count(s, '(');
-        auto count2 = ranges::count(s, ')');
-        auto count3 = ranges::count(s, '{');
-        auto count4 = ranges::count(s, '}');
-        auto count5 = ranges::count(s, '[');
-        auto count6 = ranges::count(s, ']');
+        auto count1 = count(s.begin(), s.end(), '(');
+        auto count2 = count(s.begin(), s.end(), ')');
+        auto count3 = count(s.begin(), s.end(), '{');
+        auto count4 = count(s.begin(), s.end(), '}');
+        auto count5 = count(s.begin(), s.end(), '[');
+        auto count6 = count(s.begin(), s.end(), ']');
         if ((count1!=count2) || (count3!=count4) || (count5!=count6))
         return false;
 
@@ -76,7 +76,7 @@ int top=-1;
 int main()
 {
 	string s;
-	cout<<"Enter string; ";
+	cout<<"Enter string: ";
 	cin>>s;
 	
 	Solution valid;
