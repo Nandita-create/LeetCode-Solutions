@@ -1,3 +1,4 @@
+/*Minimum Add to Make Parentheses Valid*/
 #include <iostream>
 #include <string>
 using namespace std;
@@ -41,3 +42,7 @@ int main()
     cout<<"Results: "<<results<<endl;
     return 0;
 }
+
+//run using: 
+//g++ min_valid.cpp -o min_valid.exe
+//./min_valid
