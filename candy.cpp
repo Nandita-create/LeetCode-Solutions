@@ -30,6 +30,12 @@ int main()
     cin>>size;
 
     vector<int> candies(size);
+    cout<<"Enter candy that each of the "<<size<<" kids have: ";
+    for (int i=0 ; i<size ; i++)
+    {
+        cin>>candies[i];
+    }
+
     cout<<"Enter number of extra candies: ";
     cin>>extraCandies;
 
@@ -39,7 +45,12 @@ int main()
     cout<<"Results: "<<endl;
     for (int i=0 ; i<results.size() ; i++)
     {
+        cout<<boolalpha;
         cout<<results[i]<<" ";
     }
     return 0;
 }
+
+//run using: 
+//g++ candy.cpp -o candy
+//./candy
