@@ -1,3 +1,4 @@
+/*Append Characters to String to Make a Subsequence*/
 #include <iostream>
 #include <string>
 using namespace std;
@@ -36,3 +37,7 @@ int main()
     cout<<"Result: "<<results<<endl;
     return 0;
 }
+
+//run using: 
+//g++ append.cpp -o append
+//./append
