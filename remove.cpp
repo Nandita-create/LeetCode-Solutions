@@ -1,3 +1,4 @@
+/*Remove Outermost Parentheses*/
 #include <iostream>
 #include <string>
 using namespace std;
