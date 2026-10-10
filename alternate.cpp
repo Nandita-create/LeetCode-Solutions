@@ -1,3 +1,4 @@
+/*Shuffle the Array*/
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -40,3 +41,7 @@ int main()
     cout<<endl;
     return 0;
 }
+
+//run using: 
+//g++ alternate.cpp -o alternate
+//./alternate
