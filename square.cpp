@@ -1,3 +1,4 @@
+/*Sum of Squares of Special Elements*/
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -36,3 +37,7 @@ int main()
     cout<<"Result: "<<result<<endl;
     return 0;
 }
+
+//run using: 
+//g++ square.cpp -o square
+//./square
