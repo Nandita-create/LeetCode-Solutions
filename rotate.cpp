@@ -58,3 +58,7 @@ int main()
     cout<<endl;
     return 0;
 }
+
+//run using: 
+//g++ rotate.cpp -o rotate
+//./rotate
