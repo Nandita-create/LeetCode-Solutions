@@ -37,3 +37,7 @@ int main()
 
     return 0;
 }
+
+//run using: 
+//g++ maximize.cpp -o maximize
+//./maximize
