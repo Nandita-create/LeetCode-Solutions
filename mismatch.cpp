@@ -52,3 +52,7 @@ int main() {
 	
 	return 0;
 }
+
+//run using: 
+//g++ mismatch.cpp -o mismatch
+//./mismatch
