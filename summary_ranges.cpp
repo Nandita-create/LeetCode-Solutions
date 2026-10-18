@@ -72,3 +72,7 @@ int main()
 
     return 0;
 }
+
+//run using: 
+//g++ summary_ranges.cpp -o summary_ranges
+//./summary_ranges
