@@ -91,3 +91,7 @@ int main() {
 	cout<<"Result: "<<num<<endl;
 	return 0;
 }
+
+//run using: 
+//g++ roman_to_int.cpp -o roman_to_int
+//./roman_to_int
