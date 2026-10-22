@@ -1,3 +1,4 @@
+//Letter Combinations of a Phone Number
 #include <iostream>
 #include <string>
 #include <vector>
@@ -58,3 +59,7 @@ int main()
     cout<<endl;
     return 0;
 }
+
+//run using: 
+//g++ digit_letters.cpp -o digit_letters
+//./digit_letters
