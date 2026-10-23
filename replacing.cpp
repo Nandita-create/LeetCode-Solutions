@@ -1,3 +1,4 @@
+//Integer Replacement
 #include <iostream>
 using namespace std;
 
@@ -25,3 +26,7 @@ public:
         return count;
     }
 };
+
+//run using: 
+//g++ replacing.cpp -o replacing
+//./replacing
