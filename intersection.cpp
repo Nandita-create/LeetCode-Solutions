@@ -65,7 +65,7 @@ int main()
     cout<<"Enter length of 1st array: ";
     cin>>n1;
 
-    vector<int> nums1;
+    vector<int> nums1(n1);
     cout<<"Enter elements of array 1: ";
     for (int i=0 ; i<n1 ; i++)
     {
@@ -75,7 +75,7 @@ int main()
     cout<<"Enter length of array 2: ";
     cin>>n2;
 
-    vector<int> nums2;
+    vector<int> nums2(n2);
     cout<<"Enter elements of array 2: ";
     for (int i=0 ; i<n2 ; i++)
     {
