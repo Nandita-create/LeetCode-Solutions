@@ -42,7 +42,7 @@ int main()
     Solution obj;
     vector<vector<int>>result = obj.generate(numRows);
 
-    cout<<"Result: ";
+    cout<<"Result: \n";
 
     for (const auto& row : result) 
     {
