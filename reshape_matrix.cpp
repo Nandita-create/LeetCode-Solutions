@@ -1,3 +1,4 @@
+//Reshaping the Matrix
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -73,3 +74,7 @@ int main() {
 	
 	return 0;
 }
+
+//run using: 
+//g++ reshape_matrix.cpp -o reshape_matrix
+//./reshape_matrix
