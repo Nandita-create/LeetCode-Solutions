@@ -1,3 +1,4 @@
+//Remove Duplicates from Sorted List
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -62,8 +63,13 @@ public:
 
     ListNode* Insert(ListNode* head, int value)
     {
-        ListNode* newNode = new ListNode();
-        newNode->val = value;
+        if (head==NULL)
+        {
+            head = new ListNode(value);
+            return head;
+        }
+
+        ListNode* newNode = new ListNode(value);
          ListNode* current = head;
          while(current->next!=NULL)
          {
@@ -112,3 +118,7 @@ int main()
 
     return 0;
 }
+
+//run using: 
+//g++ remove_duplicates.cpp -o remove_duplicates
+//./remove_duplicates
