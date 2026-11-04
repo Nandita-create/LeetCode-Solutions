@@ -1,3 +1,4 @@
+// Parity Sort an Array
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -44,7 +45,7 @@ int main() {
     Solution sol;
     vector<int> results = sol.sortArrayByParity(nums);
     
-    cout<<"Result: \n";
+    cout<<"Sorted Array by Parity: \n";
     for (int i=0 ; i<n ; i++)
     {
         cout<<results[i]<<" ";
