@@ -1,3 +1,4 @@
+//Find the Distance Value Between Two Arrays
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -51,13 +52,17 @@ int main() {
 	}
 	
 	int d;
-	cout<<"Enter value of d: ";
+	cout<<"Enter value of difference d: ";
 	cin>>d;
 	
 	Solution sol;
 	int result = sol.findTheDistanceValue(arr1, arr2, d);
 	
 	cout<<"Result: "<<result<<endl;
-	
+
 	return 0;
 }
+
+//run using: 
+//g++ distance_value.cpp -o distance_value
+//./distance_value
