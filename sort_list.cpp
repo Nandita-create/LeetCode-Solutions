@@ -1,3 +1,4 @@
+//Sort Linked List
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -93,3 +94,7 @@ int main() {
 	
 	return 0;
 }
+
+//run using: 
+//g++ sort_list.cpp -o sort_list
+//./sort_list
