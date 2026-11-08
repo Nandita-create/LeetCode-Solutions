@@ -1,3 +1,4 @@
+//Reversing Bits of a given Number
 #include <iostream>
 #include <string>
 #include <cmath>
@@ -54,3 +55,7 @@ int main() {
 	
 	return 0;
 }
+
+//run using: 
+//g++ reverse_bits.cpp -o reverse_bits
+//./reverse_bits
