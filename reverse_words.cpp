@@ -41,6 +41,7 @@ int main()
     cout<<"Result: "<<result<<endl;
     return 0;
 }
+
 //run using: 
 //g++ reverse_words.cpp -o reverse_words
 //./reverse_words
