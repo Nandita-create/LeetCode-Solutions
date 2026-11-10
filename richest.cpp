@@ -1,3 +1,4 @@
+//Richest Customer Wealth
 #include <iostream>
 #include <vector>
 #include <numeric>
@@ -47,3 +48,6 @@ int main()
     return 0;
 }
 
+//run using: 
+//g++ richest.cpp -o richest
+//./richest
