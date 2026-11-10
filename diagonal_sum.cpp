@@ -1,3 +1,4 @@
+//Matrix Diagonal Sum
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -48,3 +49,7 @@ int main()
 
     return 0;
 }
+
+//run using: 
+//g++ diagonal_sum.cpp -o diagonal_sum
+//./diagonal_sum
