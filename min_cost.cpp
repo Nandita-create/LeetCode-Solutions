@@ -1,3 +1,4 @@
+//Minimum Cost to Acquire Required Items
 #include <iostream>
 using namespace std;
 
@@ -58,3 +59,7 @@ int main() {
 	
 	return 0;
 }
+
+//run using: 
+//g++ min_cost.cpp -o min_cost
+//./min_cost
