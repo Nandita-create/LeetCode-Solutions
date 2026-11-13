@@ -1,3 +1,4 @@
+//Search a 2D Matrix
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -86,3 +87,7 @@ int main() {
 	
 	return 0;
 }
+
+//run using: 
+//g++ search_matrix.cpp -o search_matrix
+//./search_matrix
