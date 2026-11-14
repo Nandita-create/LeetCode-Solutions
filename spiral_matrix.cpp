@@ -1,3 +1,4 @@
+//Spiral Matrix
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -113,3 +114,7 @@ int main() {
 	
 	return 0;
 }
+
+//run using: 
+//g++ spiral_matrix.cpp -o spiral_matrix
+//./spiral_matrix
