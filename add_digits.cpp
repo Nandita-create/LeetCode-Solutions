@@ -1,3 +1,4 @@
+//Add Digits
 #include <iostream>
 using namespace std;
 
@@ -33,3 +34,7 @@ int main() {
 	
 	return 0;
 }
+
+//run using: 
+//g++ add_digits.cpp -o add_digits
+//./add_digits
