@@ -1,3 +1,4 @@
+//Power of Four
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -41,3 +42,7 @@ int main()
 
     return 0;
 }
+
+//run using: 
+//g++ power_four.cpp -o power_four
+//./power_four
